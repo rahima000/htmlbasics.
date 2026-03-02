@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: blanchedalmond;
+}
+header{
+    background-color: chocolate;
+    padding: 10px;
+    text-align: center;
+}
+nav ul{
+    list-style:none;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+nav ul a{
+    text-decoration: underline;
+    color: rgb(43, 226, 58);
+    padding: 5px;
+    border-radius: 5px;
+}
+nav ul a:hover{
+    background-color: darksalmon;
+    color: darkorchid;
+}
+main{
+    max-width: 80%;
+    margin: 10px auto;
+}
+section{
+    border:10px solid mediumorchid;
+    padding:10px;
+    margin:10px 0px;
+  box-shadow: 5px 5px 5px mediumorchid;
+  border-radius: 5px ;
+}
+h2{
+    color: fuchsia;
+    text-align: initial;
+}
+h3{
+    color: fuchsia;
+}
+.myphotO{
+    width: 300px;
+}
+#container{
+    display:flex;
+}
+.proj{
+    border:1px fuchsia;
+    padding:10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px plum;
+}
+.myimage{
+    width: 50px;
+}
+.images{
+    width: 50px;
+}
+form{
+    width: 300px;
+    margin: 20px auto;
+}
+form label{
+    display: block;
+    font-weight: bold;
+
+}
+form input,textarea{
+    border: 1px fuchsia;
+    width: 100%;
+    border-radius: 5px;
+}
+button{
+    background-color: deeppink;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 5px;
+}
+footer{
+    background-color: rgb(204, 50, 158);
+    padding: 10px;
+    text-align: center;
+}
+footer a:hover{
+    color:fuchsia
+}

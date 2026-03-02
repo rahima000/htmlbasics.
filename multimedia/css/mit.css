@@ -1,0 +1,30 @@
+body{
+    background-color: pink;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: linear-gradient (to right,darkgray,darkcyan);
+    color:white
+    padding: 40px;
+    margin:20px;
+}
+#about{
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+section{
+    padding: 40px 20px;
+}
+h2{
+    background-color: black;    
+}
+.project{
+    background-color: lightgray;
+    margin: 20px auto;
+    padding: 40px 20px;
+    width:60px;
+    border-radius: 8px;
+}

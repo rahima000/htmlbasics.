@@ -1,0 +1,31 @@
+body{
+    background-color: pink;
+    margin: 0;
+}
+header{
+    background-color: gainsboro;
+    padding: 20px;
+    text-align: justify;
+}
+#hero{
+    height:70vh;
+    padding: 10px;
+    background: url("../images/landscape.jpg") no-repeat;
+    background: cover;
+    background-position: center; 
+}
+#hero .content{
+    text-align: center;
+    font-size: 32px;
+    color: rgb(240, 255, 243);
+}
+nav ul{
+   list-style: none; 
+   display: flex;
+   gap: 150px;
+   justify-content: center;
+}
+nav ul a:hover{
+
+}
+

@@ -1,0 +1,91 @@
+body {
+    background-color:white;
+    font-family:'Courier New', Courier, monospace;3
+    margin: 0;
+}
+header{
+    background-color: #384A37;
+    padding: 10px;
+}
+ul{
+  list-style-type: none;
+
+}
+
+ul li{
+    display: inline;
+    margin: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: cadetblue;
+    font-size: 16px;
+}
+
+ul li a:hover{
+    background-color: burlywood;
+    color: crimson;
+    border-radius: 5px;
+}
+
+h1{
+    color: rgb(139, 0, 104);
+    text-align: center;
+}
+form{
+    width:40%;
+    margin: 10px auto;
+    background-color:antiquewhite;
+    padding: 10px;
+    border:1px solid purple;
+    border-radius: 5px;
+}
+label{
+   /* display:block;*/
+}
+input,textarea,select{
+    border: 1px solid #38F527;
+    width:100%;
+    border-radius: 5px;
+}
+input[type="radio"],input[type=checkbox]{
+    width: auto;
+}
+button{
+    background-color: rgb(202, 226, 43);
+    width: 100%;
+    border:none;
+    color:darkorange;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover{
+    background-color:rgb(165, 42, 151);
+    color:blue;
+}
+h3{
+    color:rgb(43, 70, 226);
+    text-align: center;
+    border: 1px solid burlywood;
+}
+table{
+    width: 50px;
+    margin: 20px auto;
+    border: 1px solid green
+}
+#student{
+    border: 1px solid yellow;
+
+}
+th,td{
+    border:1px solid gray;
+    text-align: left;
+}
+td{
+    color: forestgreen;
+    background-color: coral;
+    text-align: center;
+
+}

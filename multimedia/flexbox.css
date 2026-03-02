@@ -1,0 +1,31 @@
+body{
+    background-color:bisque;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+header{
+    background-color:lightslategrey;
+    text-align: center;
+    padding: 10px;
+}
+nav ul{
+   gap: 100px; 
+   list-style: none;
+   justify-content: center;
+   display: flex;
+}
+nav ul a{
+color: white;
+text-decoration: underline;
+padding: 5px;
+border-radius: 5px;
+}
+nav ul a:hover{
+    background-color: darkred;
+    color: darkorchid;
+}
+main{
+    max-width: 80%;
+    margin: 10px;
+}
